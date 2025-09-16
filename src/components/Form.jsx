@@ -24,8 +24,7 @@ const Form = () => {
               <input
                 id="fullName"
                 type="text"
-                className="w-full rounded-lg px-4 py-3 bg-neutral-900 text-white border border-gray-600 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-500/50 focus:outline-none transition-all duration-200"
-                placeholder="John Doe"
+                className="inputColor w-full rounded-lg px-4 py-3 text-white border border-gray-600 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-500/50 focus:outline-none transition-all duration-200"
                 aria-required="true"
               />
             </div>
@@ -37,7 +36,7 @@ const Form = () => {
               <input
                 id="email"
                 type="email"
-                className="w-full rounded-lg px-4 py-3 bg-neutral-900 text-white border border-gray-600 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-500/50 focus:outline-none transition-all duration-200"
+                className="inputColor w-full rounded-lg px-4 py-3 text-white border border-gray-600 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-500/50 focus:outline-none transition-all duration-200"
                 placeholder="example@email.com"
                 aria-required="true"
               />
@@ -50,7 +49,7 @@ const Form = () => {
               <input
                 id="username"
                 type="text"
-                className="w-full rounded-lg px-4 py-3 bg-neutral-900 text-white border border-gray-600 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-500/50 focus:outline-none transition-all duration-200"
+                className="inputColor w-full rounded-lg px-4 py-3 text-white border border-gray-600 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-500/50 focus:outline-none transition-all duration-200"
                 placeholder="@yourusername"
                 aria-required="true"
               />
