@@ -1,9 +1,8 @@
 import React from "react";
+import DradAndDrop from "./DragAndDrop";
 
 const Form = () => {
-  const fileSelectHandler = (e) => {
-    console.log("Selected file:", e.target.files[0]);
-  };
+
 
   return (
     <section className="w-full px-4 py-8">
@@ -14,29 +13,7 @@ const Form = () => {
         <div className="text-white space-y-6">
 
           {/* File Input - Custom Styled */}
-          <div className="relative">
-            <p className="mb-2 font-semibold">Upload Avatar</p>
-            <label
-              htmlFor="avatar"
-              className="flex items-center justify-center w-full h-40 px-4 py-2 bg-neutral-900 text-white rounded-lg cursor-pointer"
-            >
-
-              <img src="/assets/images/icon-upload.svg" alt="Upload icon" className="block " /><br />
-              Drag and drop and click to upload
-              <input
-                id="avatar"
-                type="file"
-                accept="image/*"
-                onChange={fileSelectHandler}
-                className="hidden"
-                aria-describedby="avatar-help"
-              />
-            </label>
-            <p id="avatar-help" className="mt-1 text-sm text-gray-400">
-              <img src="/assets/images/icon-info.svg" alt="Upload icon" className="inline-block mr-1" />
-              Upload a JPG, PNG, or SVG (max 5MB).
-            </p>
-          </div>
+            <DradAndDrop />
 
           {/* Form Fields */}
           <div className="flex flex-col gap-5">
