@@ -1,7 +1,22 @@
-import React from "react";
+import React, { useState } from "react";
 import DradAndDrop from "./DragAndDrop";
 
 const Form = () => {
+  const [email, setEmail] = useState("");
+  const [error, setError] = useState("");
+
+  const handleEmailChange = (e) => {
+    const value = e.target.value;
+    setEmail(value);
+
+    // Simple email validation
+    if (!value.match(/^[^\s@]+@[^\s@]+\.[^\s@]+$/)) {
+      setError("Please enter a valid email address.");
+    } else {
+      setError("");
+    }
+  };
+
   return (
     <section className="w-full px-4 py-8">
       <form
@@ -36,20 +51,24 @@ const Form = () => {
               <input
                 id="email"
                 type="email"
+                value={email}
+                onChange={handleEmailChange}
                 required
                 className="inputColor w-full rounded-lg px-4 py-3 text-white border border-gray-600 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-500/50 focus:outline-none hover:bg-neutral-701 transition-all duration-200"
                 placeholder="example@email.com"
                 aria-required="true"
               />
 
-              <p id="avatar-help" className="mt-1 text-xs  text-orange-500">
-                <img
-                  src="/assets/images/icon-info.svg"
-                  alt="Info icon"
-                  className="inline-block mr-2 size-5"
-                />
-                Please enter a valid email address.
-              </p>
+              {error && (
+                <p id="avatar-help" className="mt-1 text-xs  text-orange-500">
+                  <img
+                    src="/assets/images/icon-info.svg"
+                    alt="Info icon"
+                    className="inline-block mr-2 size-5"
+                  />
+                  Please enter a valid email address.
+                </p>
+              )}
             </div>
 
             <div>

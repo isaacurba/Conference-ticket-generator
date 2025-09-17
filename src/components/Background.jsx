@@ -24,7 +24,8 @@ const patterns = [
   {
     src: "/assets/images/pattern-lines.svg",
     alt: "Pattern lines",
-    className: "absolute top-0 left-1/2 -translate-x-1/2 w-full max-w-[100vw] lg:w-3/4 z-10",
+    className:
+      "absolute top-0 left-1/2 -translate-x-1/2 w-full max-w-[100vw] lg:w-3/4 z-10",
   },
   {
     src: "/assets/images/pattern-circle.svg",
@@ -34,7 +35,8 @@ const patterns = [
   {
     src: "/assets/images/pattern-circle.svg",
     alt: "Circle bottom-right",
-    className: "absolute right-0 bottom-0 w-16 md:w-60 lg:right-60 md:bottom-40 z-10",
+    className:
+      "absolute right-0 bottom-0 w-16 md:w-60 lg:right-60 md:bottom-40 z-10",
   },
 ];
 
