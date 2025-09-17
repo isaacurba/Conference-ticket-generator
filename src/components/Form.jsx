@@ -13,9 +13,11 @@ const Form = () => {
         <div className="text-white space-y-6">
 
           {/* File Input - Custom Styled */}
+
             <DradAndDrop />
 
           {/* Form Fields */}
+          
           <div className="flex flex-col gap-5">
             <div>
               <label htmlFor="fullName" className="block mb-1 font-semibold ">
@@ -24,19 +26,19 @@ const Form = () => {
               <input
                 id="fullName"
                 type="text"
-                className="inputColor w-full rounded-lg px-4 py-3 text-white border border-gray-600 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-500/50 focus:outline-none transition-all duration-200"
+                className="inputColor w-full rounded-lg px-4 py-3 text-white border border-gray-600 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-500/50 focus:outline-none hover:bg-neutral-701 transition-all duration-200"
                 aria-required="true"
               />
             </div>
 
             <div>
               <label htmlFor="email" className="block mb-1 font-semibold ">
-                Email
+                Email Address
               </label>
               <input
                 id="email"
                 type="email"
-                className="inputColor w-full rounded-lg px-4 py-3 text-white border border-gray-600 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-500/50 focus:outline-none transition-all duration-200"
+                className="inputColor w-full rounded-lg px-4 py-3 text-white border border-gray-600 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-500/50 focus:outline-none hover:bg-neutral-701 transition-all duration-200"
                 placeholder="example@email.com"
                 aria-required="true"
               />
@@ -49,7 +51,7 @@ const Form = () => {
               <input
                 id="username"
                 type="text"
-                className="inputColor w-full rounded-lg px-4 py-3 text-white border border-gray-600 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-500/50 focus:outline-none transition-all duration-200"
+                className="inputColor w-full rounded-lg px-4 py-3 text-white border border-gray-600 focus:border-indigo-500 focus:ring-2 focus:ring-indigo-500/50 focus:outline-none hover:bg-neutral-701 transition-all duration-200"
                 placeholder="@yourusername"
                 aria-required="true"
               />

@@ -9,7 +9,7 @@ const patterns = [
   {
     src: "/assets/images/pattern-squiggly-line-top.svg",
     alt: "Desktop squiggly top",
-    className: "absolute top-20 right-0 w-1/2 hidden md:block z-10",
+    className: "absolute top-20 right-0 w-1/3 hidden md:block z-10",
   },
   {
     src: "/assets/images/pattern-squiggly-line-bottom-mobile-tablet.svg",
@@ -29,12 +29,12 @@ const patterns = [
   {
     src: "/assets/images/pattern-circle.svg",
     alt: "Circle top-left",
-    className: "absolute top-0 left-0 w-16 md:w-40 md:-top-10 md:-left-10 z-10",
+    className: "absolute top-0 left-0 w-16 md:w-60 md:-top-10 md:-left-0 z-10",
   },
   {
     src: "/assets/images/pattern-circle.svg",
     alt: "Circle bottom-right",
-    className: "absolute right-0 bottom-0 w-16 md:w-40 lg:right-32 md:bottom-0 z-10",
+    className: "absolute right-0 bottom-0 w-16 md:w-60 lg:right-60 md:bottom-40 z-10",
   },
 ];
 
