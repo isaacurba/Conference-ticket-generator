@@ -2,8 +2,8 @@ import React from "react";
 
 const TicketTitle = ({ heading, subheading }) => {
   return (
-    <section className="w-full px-4 py-8">
-      <div className="m-auto text-center text-neutral-0 font-inconsolata">
+    <section className="px-4 py-8">
+      <div className=" text-center text-neutral-0 font-inconsolata">
         <div>
           <img
             src="/assets/images/logo-full.svg"
