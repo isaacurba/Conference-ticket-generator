@@ -66,7 +66,7 @@ const Background = ({ children }) => {
       ))}
 
       {/* Render children like Title and Form */}
-      <div className="relative z-20 flex flex-col items-center justify-start min-h-screen pt-10">
+      <div className="relative z-20 flex flex-col items-center justify-start min-h-screen">
         {children}
       </div>
     </div>

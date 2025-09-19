@@ -1,15 +1,13 @@
 import React from "react";
+import Logo from "./Logo";
 
 const Title = () => {
   return (
     <section className="w-full px-4 py-8">
       <div className="m-auto text-center text-neutral-0 font-inconsolata">
-        <div>
-          <img
-            src="/assets/images/logo-full.svg"
-            alt="Coding Conf 2025 Logo"
-            className="mx-auto w-40 md:w-56"
-          />
+        {/* OFICIAL LOGO */}
+        <div className="mb-16">
+          <Logo />
         </div>
 
         <div>
