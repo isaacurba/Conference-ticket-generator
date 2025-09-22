@@ -11,13 +11,11 @@ Users can:
 ## 🛠️ Built with
 - React
 - Tailwind CSS
-- [any other tech you used]
 
-## 📸 Screenshot
-![screenshot](./screenshot.png)
+
 
 ## 🔗 Live Demo
-[View project live](https://your-deployment-link.com)
+[View project live](https://conference-git-213936-boluwatife-isaac-urban-kpomassis-projects.vercel.app/)
 
 ## 🙏 Acknowledgements
 Challenge provided by [Frontend Mentor](https://www.frontendmentor.io/).
