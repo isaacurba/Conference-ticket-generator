@@ -57,7 +57,7 @@ const Ticket = ({ avatar, name, email, userName }) => {
         subheading={
           <>
             We've emailed your ticket to{" "}
-            <span className="font-semibold bg-gradient-text">{email}</span>
+            <span className="font-semibold text-gradient-text">{email}</span>
             <br />
             and will send updates in the run up to the event
           </>
